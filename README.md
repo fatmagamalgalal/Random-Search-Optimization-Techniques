@@ -1,8 +1,8 @@
 # Random-Search-Optimization-Techniques
 
-Genetic Algorithm
+## Genetic Algorithm
 
-Pseudo code:
+### Pseudo code:
 
 1 - Calculate the distance matrix for data points
 
@@ -21,7 +21,7 @@ Pseudo code:
 	3.4 Form the new population
   
   
-Crossover:
+### Crossover:
 
 1- Choose 2 parents with a tournament selection 'best fitness from a random sample'
 
@@ -30,7 +30,7 @@ Crossover:
 3- In case of partial crossover, compare the child with its parent and pass the one with the highest fitness to the next generation.
 
 
-Partially mapped crossover:
+### Partially mapped crossover:
 
 1- Generate 2 random split points
 
@@ -39,7 +39,7 @@ Partially mapped crossover:
 https://www.google.com/search?q=partially+mapped+crossover+genetic+algorithm&sxsrf=AJOqlzXdjQdpaQ_YXICaR5eQWFqttIKqgw:1678152399068&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj29v_s1Mj9AhWKcKQEHd8rDrIQ0pQJegQIBhAC&biw=1526&bih=768&dpr=1#imgrc=H2rINIpU96WrrM
 
 
-Mutation:
+### Mutation:
 
 There are many ways to perform mutation.
 
@@ -47,9 +47,9 @@ The one used here is swapping 2 random genes in the given chromosome after tossi
 
 
 
-Ant colony Algorithm
+## Ant colony Algorithm
 
-Pseudo code:
+### Pseudo code:
 
 1 - Calculate the distance matrix for data points
 
@@ -66,17 +66,17 @@ In this step, you can generate a random population or use other heuristic or met
 	3.2 Update the pheromone matrix with the new population
   
 
-Construction:
+### Construction:
 
 Construct n solution. To construct each one:
 
 1- Choose a random point as a start
 
-2- calculate p value between this point and other unvisited points
+2- Calculate p value between this point and other unvisited points
 
-3- select the point with the max p value as the next destination
+3- Select the point with the max p value as the next destination
 
-4- add the selected point to the path 
+4- Add the selected point to the path 
 
 5- Repeat until constructing the whole path
 
