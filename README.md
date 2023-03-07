@@ -3,18 +3,28 @@
 Genetic Algorithm
 
 Pseudo code:
+
 1 - Calculate the distance matrix for data points
+
 2 - Generate the initial population
+	
 	In this step, you can generate a random population or use other heuristic or meta-heuristic techniques to generate it
+
 3- Start iterating n times:
+
   3.1 Elite the best solutions in the current population
+  
   3.2 Perform crossover with a specified probability
+  
   3.3 Mutate some solutions with a specified probability
+  
   3.4 Form the new population
   
   
 Crossover:
+
 1- Choose 2 parents with a tournament selection 'best fitness from a random sample'
+
 2- Toss a coin and perform partially mapped crossover if the probability is less than crossover probability, else pass the parents to the next generation
 3- In case of partial crossover, compare the child with its parent and pass the one with the highest fitness to the next generation.
 
