@@ -2,6 +2,9 @@
 
 ## Genetic Algorithm
 
+![genitics](https://user-images.githubusercontent.com/43317809/223312810-0f39a068-fdc1-4656-9044-d4c402bd8153.jpg)
+
+
 ### Pseudo code:
 
 1 - Calculate the distance matrix for data points
@@ -36,7 +39,7 @@
 
 2- Swap the genes within the generated range with one condition: there are no duplicate genes in the same chromosome. for more info: 
 
-https://www.google.com/search?q=partially+mapped+crossover+genetic+algorithm&sxsrf=AJOqlzXdjQdpaQ_YXICaR5eQWFqttIKqgw:1678152399068&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj29v_s1Mj9AhWKcKQEHd8rDrIQ0pQJegQIBhAC&biw=1526&bih=768&dpr=1#imgrc=H2rINIpU96WrrM
+![image](https://user-images.githubusercontent.com/43317809/223313035-9ab487d7-ed24-463e-b04a-3770306b092e.png)
 
 
 ### Mutation:
@@ -48,6 +51,11 @@ The one used here is swapping 2 random genes in the given chromosome after tossi
 
 
 ## Ant colony Algorithm
+
+
+![An-illustration-of-ant-colony-optimization](https://user-images.githubusercontent.com/43317809/223312922-0498762c-47bc-427b-b172-a0f3ed3afbc6.png)
+
+
 
 ### Pseudo code:
 
